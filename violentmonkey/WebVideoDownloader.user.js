@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name 网站视频下载器
-// @namespace https://github.com/jaysonlong
+// @name 网站视频下载器2
+// @namespace https://github.com/StygianBlues
 // @author Jayson Long https://github.com/jaysonlong
 // @version 2.2.2
 // @match *://www.bilibili.com/*/play/*
@@ -22,14 +22,14 @@
 // @grant GM_getResourceText
 // @grant GM_getResourceURL
 // @inject-into page
-// @downloadURL https://github.com/jaysonlong/webvideo-downloader/raw/master/violentmonkey/WebVideoDownloader.user.js
-// @homepageURL https://github.com/jaysonlong/webvideo-downloader
+// @downloadURL https://github.com/StygianBlues/webvideo-downloader/raw/master/violentmonkey/WebVideoDownloader.user.js
+// @homepageURL https://github.com/StygianBlues/webvideo-downloader
 // ==/UserScript==
 
 
 var storage = {
   // 通用
-  serverAddr: '127.0.0.1:18888',
+  serverAddr: '10.104.0.1:18888',
   remoteCallType: 'http', // http || websocket
 
   currDomain: '',

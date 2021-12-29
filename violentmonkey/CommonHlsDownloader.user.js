@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name 通用hls下载器
-// @namespace https://github.com/jaysonlong
+// @name 通用hls下载器2
+// @namespace https://github.com/StygianBlues
 // @author Jayson Long https://github.com/jaysonlong
 // @version 2.2.2
 // @match *://*/*
@@ -12,13 +12,13 @@
 // @grant GM_getResourceText
 // @grant GM_getResourceURL
 // @inject-into page
-// @downloadURL https://github.com/jaysonlong/webvideo-downloader/raw/master/violentmonkey/CommonHlsDownloader.user.js
-// @homepageURL https://github.com/jaysonlong/webvideo-downloader
+// @downloadURL https://github.com/StygianBlues/webvideo-downloader/raw/master/violentmonkey/CommonHlsDownloader.user.js
+// @homepageURL https://github.com/StygianBlues/webvideo-downloader
 // ==/UserScript==
 
 
 var storage = {
-  serverAddr: '127.0.0.1:18888',
+  serverAddr: '10.104.0.1:18888',
   downloadBtn: null,
   modalInfo: null,
 };
